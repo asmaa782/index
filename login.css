@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.icons{
+    margin-right: 840px;
+}
+.icons a{
+    border-radius: 30px;
+    margin: 10px;
+}
+.icons a:hover{
+    padding: 1px;
+    background-color: white;
+    border-radius: 30px;
+}
+button i{
+    color:rgb(0, 189, 223);
+ margin-right: 10px;
+}
+button i a{
+    color:white;
+}
+button{
+    width: 120px;
+    height: 25px;
+}
+button:hover{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+}
+#btn3{
+    background-color:rgb(0, 189, 223);
+    color: white;
+    font-weight: bolder;
+    margin-right: 10px;
+
+}
+#btn3 a{
+    color: white;
+    text-decoration: none;
+}
+#btn1{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+#btn2{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+/* 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.header .links{
+    height: 50px;
+    color: white;
+    margin-right: 10px;
+}
+.links ul{
+    display: flex;
+    direction: rtl;
+}
+.links ul li{
+    margin: 10px;
+    list-style: none;
+
+}
+.links ul li a{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.links ul li a:hover{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 6px solid blue;
+    padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20px;  
+}
+.logo h2{
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(0, 132, 255);
+    padding: 10px;
+}
+.logo i{
+    color: rgb(0, 132, 255);
+    font-size: 30px; 
+}
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+  margin-left: 500px;
+  margin-top: 100px;
+  color: white;
+}
+.login h1{
+    text-align: center;
+}
+.inputdata{
+    display: flex;
+flex-direction: column;
+}
+.inputdata label{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.inputdata input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: blanchedalmond;
+    border-bottom: 1px solid white;
+    width: 200px;
+    margin-left: 15px;
+}
+form button{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
